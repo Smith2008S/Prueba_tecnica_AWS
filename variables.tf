@@ -1,6 +1,6 @@
 
 variable "region" {
-  default     = "eu-west-1"
+  default     = "eu-west-2"
   type        = string
   description = "Region"
 }
@@ -18,6 +18,6 @@ variable "public_subnet_cidr_blocks" {
 
 
 variable "availability_zones" {
-  default     = "eu-west-1a"
+  default     = "eu-west-2a"
   description = "List of availability zones"
 }

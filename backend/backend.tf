@@ -16,7 +16,7 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "web" {
     ami                     = data.aws_ami.ubuntu.id
     instance_type           = "t2.micro"
-    key_name                = "key_prueba"
+    key_name                = "key_production"
     subnet_id               = var.subnet_id
     vpc_security_group_ids  = var.vpc_security_group_ids
     user_data = <<-EOF
