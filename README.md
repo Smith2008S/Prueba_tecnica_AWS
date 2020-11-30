@@ -1,36 +1,56 @@
 # Prueba_tecnica_AWS
 
 
-# GUIA DE DESPLIEGUE ARQUITECTURA DOS EC2, UNA VPC CON TERRAFORM
+# GUIA DE DESPLIEGUE ARQUITECTURA DOS INSTANCIAS EC2 Y UNA VPC CON TERRAFORM
 
-_Para el desarrollo de este proyecto se tiene como base el desarrollo de una aplicación basada en el lenguaje de programación angular y su posterior despliegue en un **Cluster de OpenShift** que se encuentra alojado en **IBM Cloud**._
+_Para el desarrollo de este proyecto se tiene como base el desarrollo de una plantilla de **Terraform**, cuyo objetivo va a ser el despliegue de una arquitectura basica compuesta por **dos instancias EC2** cada una con una aplicación diferente, y estas dos instancias deben estar destro de la misma **VPC**._
 
 ## Pre-requisitos 📋
 
-_Paso 1: Instale IBM Cloud CLI._
+_1. Tener descargada e instalada la **CLI** de AWS._
+_2. Tener descargado e instalado **Terraform** en la maquina local._
+_3. Tener creada una **Key Pairs**._
 
 
 ## Despliegue Plantilla Terrafom en AWS: 🚀
 
-### Haga 'login' a IBM Cloud desde la línea de comando
+_1. Es neceario hacer login en la CLI de AWS, para esto necesita de un **Aceess Key** y por su puesto del **Secret Access Key**, para su usuario de AWS._
 
-_Inicialmente debe acceder al shell de IBM Cloud desde el siguiente link:_
+_2. Clone el repositorio en el que esta almacenada la plantilla:_
+
 ```
-https://cloud.ibm.com/shell
+git clone https://github.com/Smith2008S/Prueba_tecnica_AWS.git
 ```
 
+_3. Acceda al directorio de la plantila:_
+```
+cd Prueba_tecnica_AWS
+```
+_4. inicialice la plantilla de terraform:_
+```
+terraform init
+```
 
+_5. Genere el plan de despliegue de la plantila:_
+```
+terraform plan
+```
+
+_6. Aplique el plan de despliegue de la plantila:_
+```
+terraform apply
+```
+
+**NOTA:** Este proceso le va a pedir una confirmación para desplegar los recursos, usted debe responder con un **yes**
 
 ## Referencias
 
-La documentación en linea de IBM Cloud Red Hat OpenShift Managed, se encuentra en el siguiente enlace:
+La documentación en linea del provaider de AWS para terraform se encuentra en el siguiente link:
 
-https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started
+https://registry.terraform.io/providers/hashicorp/aws/latest
 
-En la siguiente página se encuentra la información de administración y configuración de Open Shift 3.11.
-
-https://access.redhat.com/documentation/en-us/openshift_container_platform/3.11/
 
 ## Autor ✒️
 
 _Jhoiner Smith Rojas._
+_jhoinerrojas23@gmail.com_
