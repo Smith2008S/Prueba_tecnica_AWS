@@ -8,7 +8,9 @@ _Para el desarrollo de este proyecto se tiene como base el desarrollo de una pla
 ## Pre-requisitos 📋
 
 _1. Tener descargada e instalada la **CLI** de AWS._
+
 _2. Tener descargado e instalado **Terraform** en la maquina local._
+
 _3. Tener creada una **Key Pairs**._
 
 
