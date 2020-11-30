@@ -13,7 +13,7 @@ _1. Tener descargada e instalada la **CLI** de AWS._
 
 _2. Tener descargado e instalado **Terraform** en la maquina local._
 
-_3. Tener creada una **Key Pairs** en la misma region de despliegue._
+_3. Tener creada una **Key Pairs** en la misma region de despliegue (Para este despliegue se ha nombrado "key_production" )._
 
 
 ## Despliegue Plantilla Terrafom en AWS: 🚀
