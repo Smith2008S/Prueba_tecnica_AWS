@@ -9,7 +9,7 @@ _Para el desarrollo de este proyecto se tiene como base el desarrollo de una pla
 
 **BACKEND:** (Esta aplicación esta corriendo un API de Django)   ->   http://3.10.224.70:8000/
 
-**FRONDEND:** (Esta aplicación esta corriendo un hello world de Django)   ->  http://3.8.116.142/
+**FRONDEND:** (Esta aplicación esta corriendo un hello world de Reactjs)   ->  http://3.8.116.142/
 
 ## Pre-requisitos 📋
 
