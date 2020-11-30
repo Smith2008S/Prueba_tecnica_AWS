@@ -5,6 +5,8 @@
 
 _Para el desarrollo de este proyecto se tiene como base el desarrollo de una plantilla de **Terraform**, cuyo objetivo va a ser el despliegue de una arquitectura basica compuesta por **dos instancias EC2** cada una con una aplicación diferente, y estas dos instancias deben estar destro de la misma **VPC**._
 
+<img width="464" alt="ec2-vpc" src="https://user-images.githubusercontent.com/60987042/100619221-d871ba00-32ea-11eb-8f3f-c27228a2091f.PNG">
+
 ## Pre-requisitos 📋
 
 _1. Tener descargada e instalada la **CLI** de AWS._
